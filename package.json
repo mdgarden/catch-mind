@@ -1,0 +1,21 @@
+{
+  "name": "catch-mind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mdgarden/catch-mind.git",
+  "author": "Madang Garden <66259746+mdgarden@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/node": "^7.16.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  },
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4"
+  }
+}
