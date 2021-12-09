@@ -23,5 +23,5 @@ const io = socketIO(server);
 let sockets = [];
 
 io.on("connection", (socket) => {
-  sockets.push(socket.id);
+  socket.broadcast.emit("hello");
 });
